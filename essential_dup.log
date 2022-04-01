@@ -1,0 +1,2718 @@
+>>> FUNCTION: "function withdrawBalance ( ) public payable onlyAdmin"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function buyByAtom ( uint256 _atomId ) external payable onlyActive onlyOwnerOf ( _atomId, false ) onlyBuying ( _atomId, true )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function deposit ( ) public payable"
+>> smart_contracts/auction/053.cdp-auction-contracts.contracts.sai.SaiProxy.sol: 
+{
+	'contract TokenInterface': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/dice/06.roll-dice-demo-dapp.src.RollDice.sol: 
+{
+	'contract RollDice': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/dice/14.dapp-dice-game.contracts.Coinflip.sol: 
+{
+	'contract Coinflip': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/trading/022.openleverage-contracts.contracts.test.WETH.sol: 
+{
+	'contract WETH': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/trading/056.Cargo-Coin.contracts.Main.sol: 
+{
+	'contract CargoContract': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/voting/0547.Ethereum-Ranked-Choice-Voting-DApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/voting/0814.voting_dapp_blockchain.contracts.voteproject.sol: 
+{
+	'contract Ballot': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+>> smart_contracts/wallet/200.jcc-moac-multisig-wallet.contract.contracts.JccMoacMultiSig.sol: 
+{
+	'contract JccMoacMultiSig is Administrative, IJccMoacAlarmCallback': 
+	{
+		'function deposit ( ) public payable': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function buyEggs ( ) public payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function sellEggs ( ) public"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function buyBooster ( uint256 idx ) public payable isNotOver isCurrentRound ( msg.sender )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function withdrawReward ( address _addr ) public"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function playerRollDice ( uint256 rollUnder ) public payable gameIsActive betIsValid ( msg.value, rollUnder )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function _bid ( uint256 _tokenId, uint256 _bidAmount ) internal returns ( uint256 )"
+>> smart_contracts/auction/048.AuctionSmartContract.smartcontract.CryptoKitties.KittyCore.sol: 
+{
+	'contract ClockAuctionBase': 
+	{
+		'function _bid ( uint256 _tokenId, uint256 _bidAmount ) internal returns ( uint256 )': completely same
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function placeBet ( uint256 betMask, uint256 modulo, uint256 commitLastBlock, uint256 commit, bytes32 r, bytes32 s ) external payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function play ( ) public payable"
+>> smart_contracts/lottery/031.lottery-smart-contract.contracts.Lottery.sol: 
+{
+	'contract Lottery is Owner': 
+	{
+		'function play ( ) public payable': same signature
+	}
+}
+>> smart_contracts/lottery/297.Lottery.Lottery.sol: 
+{
+	'contract Lottery is owned, random': 
+	{
+		'function play ( ) public payable': same signature
+	}
+}
+>> smart_contracts/lottery/944.lottery-front.contracts.LotteryGame.sol: 
+{
+	'contract LotteryGame': 
+	{
+		'function play ( ) public payable': same signature
+	}
+}
+>> smart_contracts/lottery/953.lottery-game.src.main.resources.contracts.LotteryGame.sol: 
+{
+	'contract LotteryGame': 
+	{
+		'function play ( ) public payable': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function draw ( ) private"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function placeBid ( ) public payable notOwner returns ( bool )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function finalizeAuction ( ) public"
+>> smart_contracts/auction/025.eth-auction-smart-contract.contracts.Action.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/028.AuctionContract.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/031.auctionSmartContract.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/032.Auction-smart-contract.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/049.AuctionSmartContract.contracts.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/051.auctionSmartContract.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/052.AuctionSmartContract.Auction(English comments).sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/052.AuctionSmartContract.Auction(Turkish comments).sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/084.auction-smart-contract.contracts.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/088.auction-smart-contracts-.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/088.auction-smart-contracts-.auction_final.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/088.auction-smart-contracts-.auction_with_creator.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/090.Solidity_Auction_Smart_Contract.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/094.The-Auction-Smart-Contract.contracts.auction-solidity-0.4.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/094.The-Auction-Smart-Contract.contracts.auction-solidity-0.5.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/094.The-Auction-Smart-Contract.contracts.auction_with_creator-solidity-0.4.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/094.The-Auction-Smart-Contract.contracts.auction_with_creator-solidity-0.5.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/099.Auction-Smart-Contract.contracts.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/106.Auction-Smart-Contract.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/119.Auction_smart_contract.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/122.Auction-Smart-Contract.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/156.Solidity_SmartContracts.Acution.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/181.smart-contracts.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/195.solidity-auction-system.src.contracts.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/211.Auction-Smart-Contract-Source-Code-0.7.0.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/243.ethereum-solidity-programming.contracts.auctions.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/724.Solidity_SmartContracts.Acution.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/838.smart-contracts.auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/857.ethereum-smart-contracts.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/912.solidity-smart-contracts.auction-solidity-0.5.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/912.solidity-smart-contracts.auction_with_creator-solidity-0.5.x.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/957.ethereum-solidity-programming.contracts.auctions.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalizeAuction ( ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function voteForCandidate ( bytes32 candidate ) public"
+>> smart_contracts/voting/0001.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0001.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0006.voting-blockchain-dapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0023.truffle-Voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0031.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0039.voting-dapp-sample.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0054.web3-fabric-voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0088.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0094.voting-eth-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0104.VoteX---Blockchain-based-voting-system.VoteXDapp.VoteXDapp.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0104.VoteX---Blockchain-based-voting-system.VoteXWebsite.Contract.myVoting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0115.Etherium-Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0128.voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0146.VotingDapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0154.polyjuice-ported-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0171.Voting.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0185.Ethereum-Voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0200.votingApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0237.Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0238.VotingDapp.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0255.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0269.votingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0271.e-voting-dApp-for-Lok-Sabha-Elections-based-on-Ethereum.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0299.Voting-Dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0311.HelloWorld_VotingDApp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0318.blockchain-voting-app.SmartVoting.sol: 
+{
+	'contract SmartVoting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0322.ethereum_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0322.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0355.votingDApp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0367.VotingDApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0372.VotingDapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0381.votingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0387.VotingDapp.src.main.resources.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0389.votingDapp.contracts.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0405.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0410.Voting-DApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0419.voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0419.voting-dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0423.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0433.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0444.VotingDapp_Using_Truffle.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0446.VotingSample.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0448.Blockchain-DAPP-VotingApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0462.voting-eth-dapp2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0468.Simple_VotingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0473.helloworld-dapp-blockchain.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0476.Dapp-Chap-1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0483.SimpleVotingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0488.decentralized-ethereum-voting-app.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0495.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0505.hello_world_voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0518.Voting-Demo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0518.Voting-Demo.Voting1.Voting1.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0526.Verdict.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0532.Voting-Demo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0532.Voting-Demo.Voting1.Voting1.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0544.Ethereum-Samples.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0549.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0552.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0557.helloworld-dapp-blockchain-part2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0572.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0575.Public-Voting-Contract.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0579.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0579.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0634.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0639.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0652.Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0655.Voting-Dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0657.Voting_dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0665.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0669.Voting_dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0675.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0713.voting_dapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0724.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0726.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0732.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0746.DApp_Voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0750.voting-dapp.dapp.contracts.Voting.sol: 
+{
+	'contract Voting is mortal': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0767.voting-dapp.dapp.contracts.Voting.sol: 
+{
+	'contract Voting is mortal': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0777.Voting_Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0783.Dapp-voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0789.Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0805.voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0805.voting-dapp.chapter2.webpack-box.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0808.voting-ethereum-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0811.ethureum_voting_app.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0820.dapp-voting-system.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0833.etherium_voting_dapp.chapter1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0833.etherium_voting_dapp.chapter2.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0846.Voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0863.blockchain-voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0880.Ethereum-Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0881.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0881.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0885.ethereum-voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0890.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0894.voting-dapp-ether.chapter1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0900.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0900.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0901.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0905.Voting-Dapp_Solo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0917.Ethereum-Voting-DAPP.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0922.ethereum_voting_dapp.chapter1-ethersjs.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0923.eth_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0924.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0924.ethereum_voting_dapp.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0937.dApp-voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0939.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0939.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0947.ethereum_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0959.eth-dapp-voting.voting-v1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0959.eth-dapp-voting.voting-v2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0968.dapp-voting-example.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0974.Voting_dapp_ethereum.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0978.E-Voting-dApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0985.Ethereum-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0986.voting-dApp-2.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0993.ethereum-voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0994.ethereum-voting-dapp.eth-voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0994.ethereum-voting-dapp.eth-voting2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0998.ethereum-voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function voteForCandidate ( bytes32 candidate ) public"
+>> smart_contracts/voting/0001.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0001.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0006.voting-blockchain-dapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0023.truffle-Voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0031.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0039.voting-dapp-sample.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0054.web3-fabric-voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0088.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0094.voting-eth-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0104.VoteX---Blockchain-based-voting-system.VoteXDapp.VoteXDapp.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0104.VoteX---Blockchain-based-voting-system.VoteXWebsite.Contract.myVoting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0115.Etherium-Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0128.voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0146.VotingDapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0154.polyjuice-ported-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0171.Voting.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0185.Ethereum-Voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0200.votingApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0237.Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0238.VotingDapp.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0255.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0269.votingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0271.e-voting-dApp-for-Lok-Sabha-Elections-based-on-Ethereum.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0299.Voting-Dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0311.HelloWorld_VotingDApp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0318.blockchain-voting-app.SmartVoting.sol: 
+{
+	'contract SmartVoting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0322.ethereum_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0322.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0355.votingDApp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0367.VotingDApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0372.VotingDapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0381.votingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0387.VotingDapp.src.main.resources.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0389.votingDapp.contracts.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0405.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0410.Voting-DApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0419.voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0419.voting-dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0423.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0433.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0444.VotingDapp_Using_Truffle.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0446.VotingSample.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0448.Blockchain-DAPP-VotingApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0462.voting-eth-dapp2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0468.Simple_VotingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0473.helloworld-dapp-blockchain.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0476.Dapp-Chap-1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0483.SimpleVotingDapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0488.decentralized-ethereum-voting-app.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0495.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0505.hello_world_voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0518.Voting-Demo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0518.Voting-Demo.Voting1.Voting1.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0526.Verdict.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0532.Voting-Demo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0532.Voting-Demo.Voting1.Voting1.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0544.Ethereum-Samples.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0549.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0552.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0557.helloworld-dapp-blockchain-part2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0572.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0575.Public-Voting-Contract.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0579.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0579.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0634.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0639.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0652.Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0655.Voting-Dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0657.Voting_dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0665.voting-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0669.Voting_dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0675.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0713.voting_dapp.voting.sol: 
+{
+	'contract voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0724.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0726.voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0732.voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0746.DApp_Voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0750.voting-dapp.dapp.contracts.Voting.sol: 
+{
+	'contract Voting is mortal': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0767.voting-dapp.dapp.contracts.Voting.sol: 
+{
+	'contract Voting is mortal': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0777.Voting_Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0783.Dapp-voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0789.Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0805.voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0805.voting-dapp.chapter2.webpack-box.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0808.voting-ethereum-dapp.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0811.ethureum_voting_app.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0820.dapp-voting-system.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0833.etherium_voting_dapp.chapter1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0833.etherium_voting_dapp.chapter2.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0846.Voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0863.blockchain-voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0880.Ethereum-Voting-Dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0881.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0881.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0885.ethereum-voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0890.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0894.voting-dapp-ether.chapter1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0900.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0900.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0901.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0905.Voting-Dapp_Solo.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0917.Ethereum-Voting-DAPP.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0922.ethereum_voting_dapp.chapter1-ethersjs.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0923.eth_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0924.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0924.ethereum_voting_dapp.voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0937.dApp-voting.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0939.ethereum_voting_dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0939.ethereum_voting_dapp.chapter2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0947.ethereum_voting_dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0959.eth-dapp-voting.voting-v1.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0959.eth-dapp-voting.voting-v2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0968.dapp-voting-example.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0974.Voting_dapp_ethereum.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0978.E-Voting-dApp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0985.Ethereum-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0986.voting-dApp-2.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0993.ethereum-voting-dapp.chapter1.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0994.ethereum-voting-dapp.eth-voting.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0994.ethereum-voting-dapp.eth-voting2.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0998.ethereum-voting-dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function deposit ( uint256[2] memory publicKey ) public payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function withdraw ( address payable receiver, uint256 amountEther, uint256 index, uint256 c0, uint256[2] memory keyImage, uint256[] memory s ) public"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function addTokens ( ) payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function closeGame ( ) returns ( address )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function getPrice ( ) returns ( uint256 )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function cancelAuction ( uint256 _auctionId ) public isOwner ( _auctionId )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function finalizeAuction ( uint256 _auctionId ) public"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function bidOnAuction ( uint256 _auctionId ) public payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function transfer ( address receiver, uint256 amount ) public returns ( bool sufficient )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function execTransaction ( address to, uint256 value, bytes calldata data, Enum.Operation operation, uint256 safeTxGas, uint256 baseGas, uint256 gasPrice, address gasToken, address payable refundReceiver, bytes memory signatures ) public payable virtual returns ( bool success )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint8 _proposal ) public"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidate ) public"
+>> smart_contracts/voting/0832.Voting-dApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidate ) public': completely same
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0214.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0409.Election-Dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0437.dapp_voting.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0454.Voting-DApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0214.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0409.Election-Dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0437.dapp_voting.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0454.Voting-DApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0214.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0409.Election-Dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0437.dapp_voting.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0454.Voting-DApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0214.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0409.Election-Dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0437.dapp_voting.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0454.Voting-DApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0214.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0409.Election-Dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0437.dapp_voting.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0454.Voting-DApp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function invest ( ) public payable"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function close ( ) public"
+>> smart_contracts/auction/131.DutchAuction.DutchAuction.sol: 
+{
+	'contract DutchAuction': 
+	{
+		'function close ( ) public': same signature
+	}
+}
+>> smart_contracts/lottery/145.Solidity-Lottery.contracts.Test.sol: 
+{
+	'contract Test': 
+	{
+		'function close ( ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function buyTokens ( address beneficiary ) public payable nonReentrant"
+No Similar Function
+--------------------------------------------------
+
+>>> FUNCTION: "function claimRefund ( address payable refundee ) public"
+>> smart_contracts/trading/146.decentralized-exchange-a-project.dex-project.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.RefundableCrowdsale.sol: 
+{
+	'contract RefundableCrowdsale is FinalizableCrowdsale': 
+	{
+		'function claimRefund ( address payable refundee ) public': completely same
+	}
+}
+>> smart_contracts/voting/0593.Ursa.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.RefundableCrowdsale.sol: 
+{
+	'contract RefundableCrowdsale is FinalizableCrowdsale': 
+	{
+		'function claimRefund ( address payable refundee ) public': completely same
+	}
+}
+>> smart_contracts/wallet/476.blocktopus-guard.sample.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.RefundableCrowdsale.sol: 
+{
+	'contract RefundableCrowdsale is FinalizableCrowdsale': 
+	{
+		'function claimRefund ( address payable refundee ) public': same signature
+	}
+}
+--------------------------------------------------
+
+>>> FUNCTION: "function finalize ( ) public"
+>> smart_contracts/auction/058.smartAuction.dApp.contracts.englishAuction.sol: 
+{
+	'contract englishAuction is smartAuction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/058.smartAuction.dApp.contracts.smartAuction.sol: 
+{
+	'contract smartAuction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/058.smartAuction.dApp.contracts.vickeryAuction.sol: 
+{
+	'contract vickeryAuction is smartAuction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/110.Auction_Smart_Contract.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/114.Auction_Smart_Contract.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/192.solidityAuctionHouse.contracts.Auction.sol: 
+{
+	'contract Auction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/auction/192.solidityAuctionHouse.contracts.VickreyAuction.sol: 
+{
+	'contract VickreyAuction is Auction': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+>> smart_contracts/trading/146.decentralized-exchange-a-project.dex-project.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.FinalizableCrowdsale.sol: 
+{
+	'contract FinalizableCrowdsale is TimedCrowdsale': 
+	{
+		'function finalize ( ) public': completely same
+	}
+}
+>> smart_contracts/voting/0593.Ursa.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.FinalizableCrowdsale.sol: 
+{
+	'contract FinalizableCrowdsale is TimedCrowdsale': 
+	{
+		'function finalize ( ) public': completely same
+	}
+}
+>> smart_contracts/wallet/476.blocktopus-guard.sample.node_modules.openzeppelin-solidity.contracts.crowdsale.distribution.FinalizableCrowdsale.sol: 
+{
+	'contract FinalizableCrowdsale is TimedCrowdsale': 
+	{
+		'function finalize ( ) public': same signature
+	}
+}
+--------------------------------------------------
+

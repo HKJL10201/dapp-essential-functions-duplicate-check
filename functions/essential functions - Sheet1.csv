@@ -1,0 +1,35 @@
+cryptoatoms.org,https://github.com/Project312/CryptoAtoms,Trading,"CryptoAtomsLogic.sol Ln.153 buyByAtom(), CryptoAtoms.sol Ln.123 withdrawBalance()"
+proofoflove.digital,https://github.com/DecentLabs/proof-of-love/blob/master/contracts/ProofOfLove.sol,Trading,Ln.29 deposit()
+snailking.github.io,https://etherscan.io/address/0xdc078ff399d0001c31454e83896e8881d164fb95#code,Trading,"Ln.68 buyEggs(), Ln.55 sellEggs()"
+cryptominingwar.github.io,https://etherscan.io/address/0x1b002cd1ba79dfad65e8abfbb3a97826e4960fe5#code,Auction,"Ln.531 buyBooster(), Ln.518 withdrawReward()"
+https://market.start.solar/,https://market.start.solar/,Trading,No source
+etheroll,https://etherscan.io/address/0xa52e014b3f5cc48287c2d483a3e026c32cc76e6d#code,Gamble-dice,Ln.1940 playerRollDice()
+cryptokitties,https://etherscan.io/address/0x06012c8cf97bead5deae237070f9587f8e7a266d#code,Auction,Ln.1166 _bid()
+hyperdragons.alfakingdom.com,hyperdragons.alfakingdom.com,Trading,No source
+dice2.win,https://github.com/dice2-win/contracts/blob/master/Dice2Win.sol,Gamble-dice,Ln. 221 placeBet()
+all-for-one.club,https://etherscan.io/address/0x4b675B8429224134c05d1D519Eb07b4448fEBbE9,Gamble-lot,"Ln.1384 play((), Ln.1352 draw()"
+openberry-ac/Auction,https://github.com/openberry-ac/Auction,Auction,"Ln.73 placeBid(), Ln.89 finalizeAuction()"
+create-react-dapp,https://github.com/mjhm/create-react-dapp/blob/master/template/dapp/contracts/Voting.sol,Voting,Ln.28 voteForCandidate()
+ethereum-voting,https://github.com/skylerrichter/ethereum-voting,Voting,Ln.41 voteForCandidate()
+ethereum-wallet,,Wallet,
+heiswap.exchange,https://github.com/kendricktan/heiswap-dapp,Wallet,"Ln.57 deposit(), Ln.119 withdraw()"
+Lottery-DApp,https://github.com/ankitkataria/Lottery-DApp,Gamble-lot,"Ln.52 addTokens(), Ln.77 closeGame(), Ln.100 getPrice()"
+mastering-ethereum-auction-dapp,https://github.com/iNDicat0r/mastering-ethereum-auction-dapp/blob/master/backend/contracts/AuctionRepository.sol,Auction,"Ln.196 cancelAuction(), Ln.221 finalizeAuction(), Ln.254 bidOnAuction()"
+multisender.app,https://multisender.app/,Wallet,
+note_dapp,https://github.com/xilibi2003/note_dapp,Other,
+react-ethereum-metacoin,https://github.com/agrcrobles/react-ethereum-metacoin,Wallet,Ln.20 transfer()
+simple-vote,https://github.com/julianduque/simple-vote,Voting,No implementation
+truffle-voting-dapp,https://github.com/bukosabino/truffle-voting-dapp,Voting,Ln. 44 vote()
+Gnosis Safe,https://github.com/gnosis/safe-contracts/blob/main/contracts/GnosisSafe.sol,wallet,Ln.111 execTransactions()
+vote-dapp,https://ropsten.etherscan.io/address/0x5b2a057e1db47463695b4629114cbdae99235a46#code,Voting,Ln.25 vote()
+EVotingDApp,https://github.com/Vivek-Hotti/EVotingDApp,Voting,Ln.42 vote()
+Election,https://github.com/dibakarsutradhar/election,Voting,Ln.35 vote()
+Election_DAPP,https://github.com/BenjaminTanSF/Election_DAPP,Voting,Ln.34 vote()
+Vote,https://github.com/Yuvasri7826/Vote,Voting,Ln.44 vote()
+VotingDapp,https://github.com/albrewot/VotingDapp,Voting,Ln.33 vote()
+VoteDapp,https://github.com/domw30/VoteDapp,Voting,Ln.33 vote()
+voting-DApp,https://github.com/David405/voting-DApp,Voting,Ln.29 vote()
+VoteMe,https://github.com/Banupriya30/VoteMe,Voting,Ln.44 vote()
+Overview,https://github.com/eth-sri/verx-benchmarks/tree/master/overview,Crowdsale,"Ln. 46 invest(), Ln. 54 close()"
+Crowdsale,https://github.com/eth-sri/verx-benchmarks/tree/master/crowdsale,Crowdsale,"Ln.263 buyTokens(), Ln 719 claimRefund(), Ln453 finalize()"
+Dapps,link,Category,Essential Functions
