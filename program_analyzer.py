@@ -111,6 +111,8 @@ class Function():
             return 1, 'completely same'
         if ' '.join(self.name) == ' '.join(target.name):
             return 2, 'same signature'
+        if ' '.join(self.code) == ' '.join(target.code):
+            return 3, 'same implementation and different signature'
         # Todo: fuzzy compare
         return 0, None
 
