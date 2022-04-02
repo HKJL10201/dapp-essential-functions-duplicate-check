@@ -1,5 +1,6 @@
 import time
 import program_analyzer as PA
+import sol_selector as SS
 from dapp_analyzer import dic_to_string
 
 
@@ -68,26 +69,26 @@ def compare_function_with_program(function, program, mode='function', ignore_con
 
 def main():
     def init_programs():
-        data = 'smart_contracts/sol.log'
+        data = 'smart_contracts_sol.log'
         programs = []
         with open(data, 'r', encoding='utf-8') as f:
             for line in f:
                 '''if '@' in line:
                     continue'''
                 # print(line)
-                file = 'smart_contracts' + line.strip()[1:]
+                file = line.strip()
                 p = get_program_from_file(file)
                 programs.append(p)
         return programs
 
     def init_functions():
         functions = []
-        data = 'functions/sol.log'
+        data = 'functions_sol.log'
         with open(data, 'r', encoding='utf-8') as f:
             for line in f:
                 # print(line)
                 words = line.strip().split(',')
-                file = 'functions' + words[0][1:]
+                file = words[0]
                 funcs = words[1:]
                 for fn in funcs:
                     fs = get_functions_from_file(file, fn)
@@ -99,6 +100,7 @@ def main():
     print('--program init finished')
     functions = init_functions()
     print('--function init finished')
+    #exit(0)
     w = open('essential_dup.log', 'w', encoding='utf-8')
     #res = ''
     f_idx = 1
@@ -142,6 +144,12 @@ def test():
     p = get_program_from_file('smart_contracts' + line.strip()[1:])
     p.print()
 
+def init():
+    contract_dir='smart_contracts'
+    #function_dir='functions'
+    SS.print_list_dir(contract_dir,open(contract_dir+'_sol.log', 'w'))
+    #SS.print_list_dir(function_dir,open(function_dir+'_sol.log', 'w'))
 
+init()    
 main()
 # test()

@@ -25,4 +25,4 @@ def main(path=PATH):
     print_list_dir(path, l)
 
 
-main(PATH)
+#main(PATH)
