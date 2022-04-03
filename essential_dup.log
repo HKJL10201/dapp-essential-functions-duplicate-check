@@ -464,6 +464,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0120.Voting-DApp-Ethereum.src.smart-contract.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( uint8 candidate ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0128.voting-Dapp.Voting.sol: 
 {
 	'contract Voting': 
@@ -518,6 +525,13 @@ No Similar Function
 	'contract Voting': 
 	{
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0248.voting-dapps.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0255.voting-dapp.Voting.sol: 
@@ -681,6 +695,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0450.Ethereum-votingDapp.contract.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0462.voting-eth-dapp2.contracts.Voting.sol: 
 {
 	'contract Voting': 
@@ -772,6 +793,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0533.voting-dapp.Voting.sol: 
+{
+	'contract smartVoting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0544.Ethereum-Samples.contracts.Voting.sol: 
 {
 	'contract Voting': 
@@ -826,6 +854,20 @@ No Similar Function
 	'contract Voting': 
 	{
 		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0608.Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0612.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0634.voting_dapp.Voting.sol: 
@@ -1328,6 +1370,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0120.Voting-DApp-Ethereum.src.smart-contract.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( uint8 candidate ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0128.voting-Dapp.Voting.sol: 
 {
 	'contract Voting': 
@@ -1382,6 +1431,13 @@ No Similar Function
 	'contract Voting': 
 	{
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
+	}
+}
+>> smart_contracts/voting/0248.voting-dapps.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0255.voting-dapp.Voting.sol: 
@@ -1545,6 +1601,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0450.Ethereum-votingDapp.contract.voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0462.voting-eth-dapp2.contracts.Voting.sol: 
 {
 	'contract Voting': 
@@ -1636,6 +1699,13 @@ No Similar Function
 		'function voteForCandidate ( bytes32 candidate ) public': completely same
 	}
 }
+>> smart_contracts/voting/0533.voting-dapp.Voting.sol: 
+{
+	'contract smartVoting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0544.Ethereum-Samples.contracts.Voting.sol: 
 {
 	'contract Voting': 
@@ -1690,6 +1760,20 @@ No Similar Function
 	'contract Voting': 
 	{
 		'function voteForCandidate ( bytes32 candidate ) public': same signature
+	}
+}
+>> smart_contracts/voting/0608.Voting-Dapp.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0612.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function voteForCandidate ( bytes32 candidate )': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0634.voting_dapp.Voting.sol: 
@@ -2126,11 +2210,149 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function transfer ( address receiver, uint256 amount ) public returns ( bool sufficient )"
-No Similar Function
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part2.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) public returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0111.ethereum-voting-dapp.part3.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) public returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0238.VotingDapp.voting.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) public returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0298.voting_dapp.node_modules.truffle.example.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0430.dapp-voting.node_modules.truffle.example.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0431.dapp-voting.node_modules.truffle.example.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0459.voting-dapp-truffle-angular.VotingTruffleDemo.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) returns ( bool sufficient )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0669.Voting_dapp.contracts.MetaCoin.sol: 
+{
+	'contract MetaCoin': 
+	{
+		'function sendCoin ( address receiver, uint amount ) public returns ( bool sufficient )': same implementation and different signature
+	}
+}
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
-No Similar Function
+>> smart_contracts/voting/0003.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0013.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0208.VoteMe.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0213.vote-dapp.contracts.VoteContract.sol: 
+{
+	'contract VoteContract is Ownable': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0221.Vote.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0326.vot-dapp-truffle.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0425.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0478.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0479.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0481.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0817.TRUFFLE-VOTING-DAPP.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0920.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
 --------------------------------------------------
 
 >>> FUNCTION: "function execTransaction ( address to, uint256 value, bytes calldata data, Enum.Operation operation, uint256 safeTxGas, uint256 baseGas, uint256 gasPrice, address gasToken, address payable refundReceiver, bytes memory signatures ) public payable virtual returns ( bool success )"
@@ -2142,6 +2364,13 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 _candidate ) public"
+>> smart_contracts/voting/0099.EVotingDApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidate ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0832.Voting-dApp.contracts.Election.sol: 
 {
 	'contract Election': 
@@ -2222,6 +2451,13 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': same signature
 	}
 }
+>> smart_contracts/voting/0656.Voting-DApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
 {
 	'contract Election': 
@@ -2307,6 +2543,13 @@ No Similar Function
 	'contract Election': 
 	{
 		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0656.Voting-DApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
@@ -2326,7 +2569,90 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
-No Similar Function
+>> smart_contracts/voting/0003.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0013.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0208.VoteMe.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0213.vote-dapp.contracts.VoteContract.sol: 
+{
+	'contract VoteContract is Ownable': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0221.Vote.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0326.vot-dapp-truffle.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0425.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0478.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0479.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0481.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0817.TRUFFLE-VOTING-DAPP.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0920.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 _candidateId ) public"
@@ -2335,6 +2661,13 @@ No Similar Function
 	'contract Election': 
 	{
 		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0132.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0204.election-dapp.contracts.Election.sol: 
@@ -2417,6 +2750,20 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 _candidateId ) public"
+>> smart_contracts/auction/041.auction.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0017.vue-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0035.voting-dapp.contracts.Election.sol: 
 {
 	'contract Election': 
@@ -2438,6 +2785,13 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': same signature
 	}
 }
+>> smart_contracts/voting/0223.VoteDApp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0264.voting-dapp.contracts.Election.sol: 
 {
 	'contract Election': 
@@ -2450,6 +2804,20 @@ No Similar Function
 	'contract Election': 
 	{
 		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0345.VotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0401.election-voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0403.blockchain-election-dapp.src.contracts.Election.sol: 
@@ -2480,6 +2848,13 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': same signature
 	}
 }
+>> smart_contracts/voting/0474.ethereum-election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
 {
 	'contract Election': 
@@ -2487,11 +2862,60 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': completely same
 	}
 }
+>> smart_contracts/voting/0651.Voting-DApp.contracts.Election.sol: 
+{
+	'contract election': 
+	{
+		'function addVote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0755.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0768.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
 {
 	'contract Election': 
 	{
 		'function vote ( uint256 _candidateId ) public': completely same
+	}
+}
+>> smart_contracts/voting/0813.eth-election-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0816.EthereumElectionDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0918.Block-Chain_voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0991.E-Voting-DAPP.blockchain.src.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0992.eth-voting-dapp.contracts.Election.sol: 
@@ -2532,6 +2956,13 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': same signature
 	}
 }
+>> smart_contracts/voting/0274.Election-DAPP.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0334.Dapp-voting-system.contracts.Election.sol: 
 {
 	'contract Election': 
@@ -2567,11 +2998,39 @@ No Similar Function
 		'function vote ( uint256 _candidateId ) public': same signature
 	}
 }
+>> smart_contracts/voting/0466.EthereumElectionVotingDapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
 >> smart_contracts/voting/0560.voting-dapp.contracts.Election.sol: 
 {
 	'contract Election': 
 	{
 		'function vote ( uint256 _candidateId ) public': same signature
+	}
+}
+>> smart_contracts/voting/0571.building-dapp-on-rsk.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0748.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0761.voting-dapp.contracts.Election.sol: 
+{
+	'contract Election': 
+	{
+		'function vote ( uint _candidateId ) public': same implementation and different signature
 	}
 }
 >> smart_contracts/voting/0787.voting-dapp.contracts.election.sol: 
@@ -2591,7 +3050,90 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function vote ( uint256 proposalInt, uint256 voteValue ) public returns ( bool )"
-No Similar Function
+>> smart_contracts/voting/0003.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0013.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0208.VoteMe.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0213.vote-dapp.contracts.VoteContract.sol: 
+{
+	'contract VoteContract is Ownable': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0221.Vote.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0326.vot-dapp-truffle.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0425.voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0478.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0479.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0481.truffle-voting-dapp.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0817.TRUFFLE-VOTING-DAPP.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0920.truffle-voting-dapp-ropsten.contracts.Voting.sol: 
+{
+	'contract Voting': 
+	{
+		'function vote ( uint proposalInt, uint voteValue ) public returns ( bool )': same implementation and different signature
+	}
+}
 --------------------------------------------------
 
 >>> FUNCTION: "function invest ( ) public payable"
@@ -2616,7 +3158,27 @@ No Similar Function
 --------------------------------------------------
 
 >>> FUNCTION: "function buyTokens ( address beneficiary ) public payable nonReentrant"
-No Similar Function
+>> smart_contracts/trading/146.decentralized-exchange-a-project.dex-project.node_modules.openzeppelin-solidity.contracts.crowdsale.Crowdsale.sol: 
+{
+	'contract Crowdsale is ReentrancyGuard': 
+	{
+		'function buyTokens ( address beneficiary ) public nonReentrant payable': same implementation and different signature
+	}
+}
+>> smart_contracts/voting/0593.Ursa.node_modules.openzeppelin-solidity.contracts.crowdsale.Crowdsale.sol: 
+{
+	'contract Crowdsale is ReentrancyGuard': 
+	{
+		'function buyTokens ( address beneficiary ) public nonReentrant payable': same implementation and different signature
+	}
+}
+>> smart_contracts/wallet/476.blocktopus-guard.sample.node_modules.openzeppelin-solidity.contracts.crowdsale.Crowdsale.sol: 
+{
+	'contract Crowdsale is ReentrancyGuard': 
+	{
+		'function buyTokens ( address beneficiary ) public nonReentrant payable': same implementation and different signature
+	}
+}
 --------------------------------------------------
 
 >>> FUNCTION: "function claimRefund ( address payable refundee ) public"
