@@ -107,12 +107,20 @@ class Function():
         self.sign['returns'] = returns
 
     def compare_with(self, target, mode):
-        if ' '.join(self.name+self.code) == ' '.join(target.name+target.code):
-            return 1, 'completely same'
-        if ' '.join(self.name) == ' '.join(target.name):
-            return 2, 'same signature'
-        if ' '.join(self.code) == ' '.join(target.code):
-            return 3, 'same implementation and different signature'
+        if mode.startswith('ratio'):
+            import difflib
+            threshold = float(mode.replace('ratio', ''))
+            ratio = difflib.SequenceMatcher(None, ' '.join(
+                self.code), ' '.join(target.code)).ratio()
+            if ratio >= threshold:
+                return 4, ratio
+        else:
+            if ' '.join(self.name+self.code) == ' '.join(target.name+target.code):
+                return 1, 'completely same'
+            elif ' '.join(self.name) == ' '.join(target.name):
+                return 2, 'same signature'
+            elif ' '.join(self.code) == ' '.join(target.code):
+                return 3, 'same implementation and different signature'
         # Todo: fuzzy compare
         return 0, None
 

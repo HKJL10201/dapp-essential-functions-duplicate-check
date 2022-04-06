@@ -67,7 +67,7 @@ def compare_function_with_program(function, program, mode='function', ignore_con
     return flag, contents
 
 
-def main():
+def main(mode='ratio0.8'):
     def init_programs():
         data = 'smart_contracts_sol.log'
         programs = []
@@ -100,8 +100,8 @@ def main():
     print('--program init finished')
     functions = init_functions()
     print('--function init finished')
-    #exit(0)
-    w = open('essential_dup.log', 'w', encoding='utf-8')
+    # exit(0)
+    w = open('essential_dup'+mode+'.log', 'w', encoding='utf-8')
     #res = ''
     f_idx = 1
     for f in functions:
@@ -123,7 +123,7 @@ def main():
             dur = time.perf_counter() - start
             print("\r{:^3.0f}%[{}->{}]{:.2f}s".format(bc, ba, bb, dur), end="")
 
-            idx, content = compare_function_with_program(f, p)
+            idx, content = compare_function_with_program(f, p, mode=mode)
             if idx != 0:
                 #res += ('>> '+p.name+': \n')
                 #res += (dic_to_string(0, content)+'\n')
@@ -144,12 +144,14 @@ def test():
     p = get_program_from_file('smart_contracts' + line.strip()[1:])
     p.print()
 
+
 def init():
-    contract_dir='smart_contracts'
-    #function_dir='functions'
-    SS.print_list_dir(contract_dir,open(contract_dir+'_sol.log', 'w'))
+    contract_dir = 'smart_contracts'
+    # function_dir='functions'
+    SS.print_list_dir(contract_dir, open(contract_dir+'_sol.log', 'w'))
     #SS.print_list_dir(function_dir,open(function_dir+'_sol.log', 'w'))
 
-init()    
-main()
+
+init()
+main(mode='')
 # test()
